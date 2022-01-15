@@ -16,6 +16,8 @@ module.exports = {
     ecmaVersion: 12,
   },
   rules: {
+
+    camelcase: ["never"],
     "node/no-unsupported-features/es-syntax": [
       "error",
       { ignores: ["modules"] },
